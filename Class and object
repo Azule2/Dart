@@ -6,25 +6,10 @@ void main(List<String> args){
   c1.sum(2,2);
   print(c1.Color);
 }
-
 class Car 
-{
-  
+{ 
   String name;
   String Color;
   String Model;
   int Price;
-  
-  void sum(int x, int y){
-    
-    print(x+y);
-  }
 }
-
-List Ages(){
-  
-  return [22,11,31,54,76];
-  
-}
-
-int my()=> 7+10+23;
